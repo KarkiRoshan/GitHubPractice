@@ -1,4 +1,8 @@
-def info(word):
-    print(f"This is my information, I am {word}")
-
-info("World")
+#word counter
+def counter(word):
+    count={}
+    for i in word:
+        number= word.count(i)
+        count[i]=number
+    return count
+print(counter('Aakansha'))
